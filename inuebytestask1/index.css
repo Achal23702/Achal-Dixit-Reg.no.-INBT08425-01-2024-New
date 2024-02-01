@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background-image: url("./beauty\ task\ 1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.main{
+    /* background-image: url("beauty\ task\ 1.jpg"); */
+    background-size: 90% 90%;
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    width: 50%;
+    height: 80%;
+    margin: 10px;
+    padding: 50px;
+    
+}
+.form{
+    width: 50%;
+    margin: 100px;
+    padding: 10px;
+}
+
+.elements{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 15px;
+}
+ a {
+    text-decoration: none;
+    color: black;
+}
+.elements img {
+ width: 60px;
+ height: 40px;
+
+}
+.navbar{
+    background-color: rgba(244, 161, 129, 0.808);
+    width: 100%;
+    height: 50px;
+}
+.button{
+    font-size: x-large;
+    padding: 5px,5px,5px,5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.button a {
+    color: aliceblue;
+}
+.heading{
+    margin: 45px;
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+
+}
+.footer{
+    background-color: rgba(244, 161, 129, 0.808);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+ /* .button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: p
+} */
+.
+.main{
+    display: flex;
+    justify-content: center;
+}
+.registrationform{
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 250px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.about{
+    font-weight: bold;
+    font-size: 20px;
+}
+.registrationform input{
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.registrationform button{
+    border-radius: 10px;
+    font-size: large;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}
